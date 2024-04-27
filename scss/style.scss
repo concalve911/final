@@ -680,8 +680,8 @@
   &__item {
     height: 100%;
     text-align: center;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
   &__item-1 {
     background-color: rgba(28, 66, 128, 1);
@@ -774,7 +774,7 @@
   @media (min-width: 1920px) {
     &__list {
       border-radius: 12px;
-      padding-bottom: 60px;
+      padding-bottom: 3.75rem;
     }
     &__item-1 {
       border-radius: 12px 0 0 0;
@@ -928,7 +928,7 @@
   }
   .adress {
     &__list {
-      padding-top: 30px;
+      padding-top: 1.875rem;
     }
     &__link {
       display: block;
@@ -938,11 +938,11 @@
     }
     &__map {
       display: block;
-      font-size: 12px;
+      font-size: 0.75em;
       font-weight: 700;
       letter-spacing: 1px;
       line-height: $title-line-height;
-      margin-bottom: 21px;
+      margin-bottom: 1.3125rem;
     }
   }
   .bottom {
@@ -955,19 +955,19 @@
     &__mail {
       display: block;
       font-weight: 700;
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
     }
   }
   &__credits {
     color: $grey-text;
     line-height: $title-line-height;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   @media (min-width: 768px) {
     .adress {
       position: relative;
-      margin-bottom: 21px;
+      margin-bottom: 1.3125rem;
       &__list {
         display: flex;
         align-items: center;
@@ -982,7 +982,7 @@
     }
     .bottom {
       &__box {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
       }
       &__list {
         display: flex;
