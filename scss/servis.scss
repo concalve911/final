@@ -204,7 +204,7 @@
     background-color: $white;
     display: block;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 3.75rem;
     height: 100%;
   }
   &__menu-item {
@@ -246,18 +246,18 @@
 
 .top {
   &__inner {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     text-align: center;
     border-bottom: 4px solid $grey-separator;
   }
   &__img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
   }
 
   &__title {
-    font-size: 30px;
+    font-size: 1.875em;
     margin-bottom: 28px;
   }
   &__text {
@@ -269,7 +269,7 @@
   &__btn {
     font-weight: 700;
     display: inline-block;
-    padding: 18px 30px;
+    padding: 1.125rem 1.875rem;
     margin-bottom: 30px;
     border-radius: 12px;
     color: $white;
@@ -277,10 +277,10 @@
   }
   @media (min-width: 768px) {
     &__inner {
-      padding-top: 60px;
+      padding-top: 3.75rem;
     }
     &__btn {
-      margin-bottom: 60px;
+      margin-bottom: 3.75rem;
     }
   }
 }
@@ -289,25 +289,25 @@
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   &__inner {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 1.875rem;
+    padding-bottom: 3.75rem;
   }
   &__title {
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     color: $white;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   &__list {
     list-style: disc;
   }
   &__list-item {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     color: $accent-color;
   }
   &__list-text {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: $line-height;
     text-align: left;
     color: $white;
@@ -349,13 +349,13 @@
     &__list {
       display: grid;
       grid-template-columns: repeat(2, minmax(200px, 1fr));
-      column-gap: 60px;
+      column-gap: 3.75rem;
     }
   }
 }
 .shadow {
   background-color: $white;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 .blog {
   background: $grey-bg-alt;
@@ -523,7 +523,7 @@
   &__credits {
     color: $grey-text;
     line-height: $title-line-height;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   @media (min-width: 768px) {
@@ -544,7 +544,7 @@
     }
     .bottom {
       &__box {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
       }
       &__list {
         display: flex;

@@ -217,13 +217,13 @@
 
   &__link {
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 1.8;
     background-color: $grey-bg;
     border-radius: 12px;
-    width: 335px;
-    height: 42px;
+    width: 20.9375rem;
+    height: 2.625rem;
   }
   &__btn-list--open {
     transform: translateX(0%);
@@ -285,7 +285,7 @@
     color: $white;
     line-height: $line-height;
     max-width: 19.6875rem;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   @media (min-width: 400px) {
     &__list-text {
@@ -383,8 +383,8 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 3.75rem;
+    padding-bottom: 1.875rem;
   }
 }
 .brand-logos {
@@ -392,8 +392,8 @@
   &__item {
     height: 100%;
     text-align: center;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
   &__item-1 {
     background-color: rgba(28, 66, 128, 1);
@@ -486,7 +486,7 @@
   @media (min-width: 1920px) {
     &__list {
       border-radius: 12px;
-      padding-bottom: 60px;
+      padding-bottom: 3.75rem;
     }
     &__item-1 {
       border-radius: 12px 0 0 0;
@@ -511,7 +511,7 @@
   }
   .adress {
     &__list {
-      padding-top: 30px;
+      padding-top: 1.875rem;
     }
     &__link {
       display: block;
@@ -525,7 +525,7 @@
       font-weight: 700;
       letter-spacing: 1px;
       line-height: $title-line-height;
-      margin-bottom: 21px;
+      margin-bottom: 1.3125rem;
     }
   }
   .bottom {
@@ -538,13 +538,13 @@
     &__mail {
       display: block;
       font-weight: 700;
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
     }
   }
   &__credits {
     color: $grey-text;
     line-height: $title-line-height;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   @media (min-width: 768px) {
@@ -565,7 +565,7 @@
     }
     .bottom {
       &__box {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
       }
       &__list {
         display: flex;
