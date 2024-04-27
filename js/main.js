@@ -13,7 +13,7 @@ $(function () {
 
 const menuBtn = document.querySelector(".mobile__menu-btn");
 const menuClose = document.querySelector(".menu__close");
-const menuList = document.querySelector(".mobile-btn__list"); // Здесь изменен класс
+const menuList = document.querySelector(".mobile-btn__list");
 
 menuBtn.addEventListener("click", () => {
   menuList.classList.add("mobile__btn-list--open");

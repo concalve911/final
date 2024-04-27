@@ -245,8 +245,11 @@
   }
 }
 .services {
+  box-shadow: 55px 88px 5px 81px #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   &__inner {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
   &__link {
     display: block;
@@ -287,6 +290,39 @@
   @media (min-width: 400px) {
     &__list-text {
       max-width: 100%;
+    }
+  }
+  &-shadow__box {
+    position: relative;
+    width: 100%;
+    height: 10px;
+
+    &-1,
+    &-2 {
+      position: absolute;
+      height: 100%;
+      border-radius: 0 0 12px 12px;
+      bottom: 1px;
+    }
+
+    &-1 {
+      background: rgba(202, 202, 219, 1);
+      opacity: 0.7;
+      width: 90%;
+      z-index: 2;
+      top: 15px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &-2 {
+      background: rgba(202, 202, 219, 1);
+      opacity: 0.4;
+      width: 80%;
+      z-index: 1;
+      top: 25px;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 
@@ -339,49 +375,16 @@
     }
   }
 }
-.shadow {
+.test-us {
   background-color: $white;
-  padding-bottom: 60px;
-  &__box {
-    position: relative;
-    width: 100%;
-    height: 10px;
 
-    &-1,
-    &-2,
-    &-3 {
-      position: absolute;
-      height: 100%;
-      border-radius: 0 0 12px 12px;
-      bottom: 1px;
-    }
-
-    &-1 {
-      background: rgba(79, 52, 113, 1);
-      opacity: 1;
-      width: 100%;
-      z-index: 3;
-    }
-
-    &-2 {
-      background: rgba(202, 202, 219, 1);
-      opacity: 0.7;
-      width: 90%;
-      z-index: 2;
-      top: 13px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    &-3 {
-      background: rgba(202, 202, 219, 1);
-      opacity: 0.4;
-      width: 80%;
-      z-index: 1;
-      top: 20px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  &__text {
+    color: $main-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
 }
 .brand-logos {
