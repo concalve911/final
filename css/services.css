@@ -330,6 +330,7 @@ body {
   width: 1.125rem;
   height: 0.0625rem;
   background-color: transparent;
+  margin-left: auto;
 }
 .mobile__menu-btn span {
   display: block;
